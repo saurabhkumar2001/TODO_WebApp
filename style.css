@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1 {
+    color:purple;
+  }
+  
+  input {
+    padding: 10px;
+    border: 2px solid goldenrod;
+    border-radius: 19px;
+    width: 300px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:salmon;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px; 
+  }
+  
+  button:hover {
+    background-color:rgb(255, 83, 64);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    width: 300px;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 5px rebeccapurple;
+  }
+  
+  .delete {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+     padding: 5px 10px; 
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete:hover {
+    background-color: #c82333;
+  }
+  
